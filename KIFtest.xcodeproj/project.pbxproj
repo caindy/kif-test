@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09C01701803FABA00575805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09C016F1803FABA00575805 /* Foundation.framework */; };
+		A09C01721803FABA00575805 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09C01711803FABA00575805 /* CoreGraphics.framework */; };
+		A09C01741803FABA00575805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09C01731803FABA00575805 /* UIKit.framework */; };
+		A09C017A1803FABA00575805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A09C01781803FABA00575805 /* InfoPlist.strings */; };
+		A09C017C1803FABA00575805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C017B1803FABA00575805 /* main.m */; };
+		A09C01801803FABA00575805 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C017F1803FABA00575805 /* AppDelegate.m */; };
+		A09C01831803FABA00575805 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09C01811803FABA00575805 /* Main_iPhone.storyboard */; };
+		A09C01861803FABA00575805 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09C01841803FABA00575805 /* Main_iPad.storyboard */; };
+		A09C01891803FABA00575805 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C01881803FABA00575805 /* ViewController.m */; };
+		A09C018B1803FABA00575805 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09C018A1803FABA00575805 /* Images.xcassets */; };
+		A09F654C1803FEC60040FE69 /* LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C01BF1803FBD600575805 /* LoginTests.m */; };
+		A0BE1FD01803FE92001FBB44 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BE1FCF1803FE92001FBB44 /* SenTestingKit.framework */; };
+		A0BE1FD11803FE92001FBB44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09C016F1803FABA00575805 /* Foundation.framework */; };
+		A0BE1FD21803FE92001FBB44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09C01731803FABA00575805 /* UIKit.framework */; };
+		A0BE1FD81803FE92001FBB44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0BE1FD61803FE92001FBB44 /* InfoPlist.strings */; };
+		ADE49EC710CB44B69A503FE3 /* libPods-Acceptance tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA12A8325BD4FDCA4FF3A50 /* libPods-Acceptance tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0BE1FDC1803FE92001FBB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09C01641803FABA00575805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09C016B1803FABA00575805;
+			remoteInfo = KIFtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F7EC2CB9714A51AD02E661 /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3560681EC2EB4CF8A46291F1 /* Pods-Acceptance Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.xcconfig"; path = "Pods/Pods-Acceptance Tests.xcconfig"; sourceTree = "<group>"; };
+		6FA12A8325BD4FDCA4FF3A50 /* libPods-Acceptance tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		850D0F5F844E496382C00551 /* Pods-Acceptance tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance tests.xcconfig"; path = "Pods/Pods-Acceptance tests.xcconfig"; sourceTree = "<group>"; };
+		A09C016C1803FABA00575805 /* KIFtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09C016F1803FABA00575805 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A09C01711803FABA00575805 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A09C01731803FABA00575805 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A09C01771803FABA00575805 /* KIFtest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIFtest-Info.plist"; sourceTree = "<group>"; };
+		A09C01791803FABA00575805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09C017B1803FABA00575805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A09C017D1803FABA00575805 /* KIFtest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIFtest-Prefix.pch"; sourceTree = "<group>"; };
+		A09C017E1803FABA00575805 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A09C017F1803FABA00575805 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A09C01821803FABA00575805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A09C01851803FABA00575805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A09C01871803FABA00575805 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A09C01881803FABA00575805 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A09C018A1803FABA00575805 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A09C01911803FABA00575805 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A09C01991803FABA00575805 /* KIFtestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIFtestTests-Info.plist"; sourceTree = "<group>"; };
+		A09C019B1803FABA00575805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09C01B11803FB5000575805 /* Acceptance Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acceptance Tests-Info.plist"; sourceTree = "<group>"; };
+		A09C01B31803FB5000575805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09C01B71803FB5000575805 /* Acceptance Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acceptance Tests-Prefix.pch"; sourceTree = "<group>"; };
+		A09C01BE1803FBD600575805 /* LoginTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginTests.h; path = "../Acceptance Tests/LoginTests.h"; sourceTree = "<group>"; };
+		A09C01BF1803FBD600575805 /* LoginTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginTests.m; path = "../Acceptance Tests/LoginTests.m"; sourceTree = "<group>"; };
+		A0BE1FCE1803FE92001FBB44 /* Acceptance tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BE1FCF1803FE92001FBB44 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0BE1FD51803FE92001FBB44 /* Acceptance tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acceptance tests-Info.plist"; sourceTree = "<group>"; };
+		A0BE1FD71803FE92001FBB44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0BE1FD91803FE92001FBB44 /* Acceptance_tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acceptance_tests.m; sourceTree = "<group>"; };
+		A0BE1FDB1803FE92001FBB44 /* Acceptance tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acceptance tests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09C01691803FABA00575805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09C01721803FABA00575805 /* CoreGraphics.framework in Frameworks */,
+				A09C01741803FABA00575805 /* UIKit.framework in Frameworks */,
+				A09C01701803FABA00575805 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BE1FCB1803FE92001FBB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BE1FD01803FE92001FBB44 /* SenTestingKit.framework in Frameworks */,
+				A0BE1FD21803FE92001FBB44 /* UIKit.framework in Frameworks */,
+				A0BE1FD11803FE92001FBB44 /* Foundation.framework in Frameworks */,
+				ADE49EC710CB44B69A503FE3 /* libPods-Acceptance tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A09C01631803FABA00575805 = {
+			isa = PBXGroup;
+			children = (
+				A09C01751803FABA00575805 /* KIFtest */,
+				A09C01971803FABA00575805 /* KIFtestTests */,
+				A09C01AF1803FB5000575805 /* Acceptance Tests */,
+				A0BE1FD31803FE92001FBB44 /* Acceptance tests */,
+				A09C016E1803FABA00575805 /* Frameworks */,
+				A09C016D1803FABA00575805 /* Products */,
+				3560681EC2EB4CF8A46291F1 /* Pods-Acceptance Tests.xcconfig */,
+				850D0F5F844E496382C00551 /* Pods-Acceptance tests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A09C016D1803FABA00575805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09C016C1803FABA00575805 /* KIFtest.app */,
+				A0BE1FCE1803FE92001FBB44 /* Acceptance tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09C016E1803FABA00575805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A09C016F1803FABA00575805 /* Foundation.framework */,
+				A09C01711803FABA00575805 /* CoreGraphics.framework */,
+				A09C01731803FABA00575805 /* UIKit.framework */,
+				A09C01911803FABA00575805 /* XCTest.framework */,
+				10F7EC2CB9714A51AD02E661 /* libPods-Acceptance Tests.a */,
+				A0BE1FCF1803FE92001FBB44 /* SenTestingKit.framework */,
+				6FA12A8325BD4FDCA4FF3A50 /* libPods-Acceptance tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A09C01751803FABA00575805 /* KIFtest */ = {
+			isa = PBXGroup;
+			children = (
+				A09C017E1803FABA00575805 /* AppDelegate.h */,
+				A09C017F1803FABA00575805 /* AppDelegate.m */,
+				A09C01811803FABA00575805 /* Main_iPhone.storyboard */,
+				A09C01841803FABA00575805 /* Main_iPad.storyboard */,
+				A09C01871803FABA00575805 /* ViewController.h */,
+				A09C01881803FABA00575805 /* ViewController.m */,
+				A09C018A1803FABA00575805 /* Images.xcassets */,
+				A09C01761803FABA00575805 /* Supporting Files */,
+			);
+			path = KIFtest;
+			sourceTree = "<group>";
+		};
+		A09C01761803FABA00575805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09C01771803FABA00575805 /* KIFtest-Info.plist */,
+				A09C01781803FABA00575805 /* InfoPlist.strings */,
+				A09C017B1803FABA00575805 /* main.m */,
+				A09C017D1803FABA00575805 /* KIFtest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A09C01971803FABA00575805 /* KIFtestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A09C01981803FABA00575805 /* Supporting Files */,
+			);
+			path = KIFtestTests;
+			sourceTree = "<group>";
+		};
+		A09C01981803FABA00575805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09C01991803FABA00575805 /* KIFtestTests-Info.plist */,
+				A09C019A1803FABA00575805 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A09C01AF1803FB5000575805 /* Acceptance Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A09C01B01803FB5000575805 /* Supporting Files */,
+			);
+			path = "Acceptance Tests";
+			sourceTree = "<group>";
+		};
+		A09C01B01803FB5000575805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09C01B11803FB5000575805 /* Acceptance Tests-Info.plist */,
+				A09C01B21803FB5000575805 /* InfoPlist.strings */,
+				A09C01B71803FB5000575805 /* Acceptance Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0BE1FD31803FE92001FBB44 /* Acceptance tests */ = {
+			isa = PBXGroup;
+			children = (
+				A09C01BE1803FBD600575805 /* LoginTests.h */,
+				A09C01BF1803FBD600575805 /* LoginTests.m */,
+				A0BE1FD91803FE92001FBB44 /* Acceptance_tests.m */,
+				A0BE1FD41803FE92001FBB44 /* Supporting Files */,
+			);
+			path = "Acceptance tests";
+			sourceTree = "<group>";
+		};
+		A0BE1FD41803FE92001FBB44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0BE1FD51803FE92001FBB44 /* Acceptance tests-Info.plist */,
+				A0BE1FD61803FE92001FBB44 /* InfoPlist.strings */,
+				A0BE1FDB1803FE92001FBB44 /* Acceptance tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09C016B1803FABA00575805 /* KIFtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09C01A11803FABA00575805 /* Build configuration list for PBXNativeTarget "KIFtest" */;
+			buildPhases = (
+				A09C01681803FABA00575805 /* Sources */,
+				A09C01691803FABA00575805 /* Frameworks */,
+				A09C016A1803FABA00575805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIFtest;
+			productName = KIFtest;
+			productReference = A09C016C1803FABA00575805 /* KIFtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0BE1FCD1803FE92001FBB44 /* Acceptance tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BE1FDE1803FE92001FBB44 /* Build configuration list for PBXNativeTarget "Acceptance tests" */;
+			buildPhases = (
+				90E6EF85E76A40A58C993CC1 /* Check Pods Manifest.lock */,
+				A0BE1FCA1803FE92001FBB44 /* Sources */,
+				A0BE1FCB1803FE92001FBB44 /* Frameworks */,
+				A0BE1FCC1803FE92001FBB44 /* Resources */,
+				2F8BF084E03E4E0DA953ED3C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0BE1FDD1803FE92001FBB44 /* PBXTargetDependency */,
+			);
+			name = "Acceptance tests";
+			productName = "Acceptance tests";
+			productReference = A0BE1FCE1803FE92001FBB44 /* Acceptance tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09C01641803FABA00575805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Lafosca;
+				TargetAttributes = {
+					A0BE1FCD1803FE92001FBB44 = {
+						TestTargetID = A09C016B1803FABA00575805;
+					};
+				};
+			};
+			buildConfigurationList = A09C01671803FABA00575805 /* Build configuration list for PBXProject "KIFtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09C01631803FABA00575805;
+			productRefGroup = A09C016D1803FABA00575805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09C016B1803FABA00575805 /* KIFtest */,
+				A0BE1FCD1803FE92001FBB44 /* Acceptance tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09C016A1803FABA00575805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09C01861803FABA00575805 /* Main_iPad.storyboard in Resources */,
+				A09C018B1803FABA00575805 /* Images.xcassets in Resources */,
+				A09C01831803FABA00575805 /* Main_iPhone.storyboard in Resources */,
+				A09C017A1803FABA00575805 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BE1FCC1803FE92001FBB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BE1FD81803FE92001FBB44 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F8BF084E03E4E0DA953ED3C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Acceptance tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E6EF85E76A40A58C993CC1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09C01681803FABA00575805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09C01891803FABA00575805 /* ViewController.m in Sources */,
+				A09C01801803FABA00575805 /* AppDelegate.m in Sources */,
+				A09C017C1803FABA00575805 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BE1FCA1803FE92001FBB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09F654C1803FEC60040FE69 /* LoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0BE1FDD1803FE92001FBB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09C016B1803FABA00575805 /* KIFtest */;
+			targetProxy = A0BE1FDC1803FE92001FBB44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09C01781803FABA00575805 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09C01791803FABA00575805 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A09C01811803FABA00575805 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09C01821803FABA00575805 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A09C01841803FABA00575805 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09C01851803FABA00575805 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A09C019A1803FABA00575805 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09C019B1803FABA00575805 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A09C01B21803FB5000575805 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09C01B31803FB5000575805 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0BE1FD61803FE92001FBB44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BE1FD71803FE92001FBB44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A09C019F1803FABA00575805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A09C01A01803FABA00575805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A09C01A21803FABA00575805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFtest/KIFtest-Prefix.pch";
+				INFOPLIST_FILE = "KIFtest/KIFtest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A09C01A31803FABA00575805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFtest/KIFtest-Prefix.pch";
+				INFOPLIST_FILE = "KIFtest/KIFtest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0BE1FDF1803FE92001FBB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850D0F5F844E496382C00551 /* Pods-Acceptance tests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFtest.app/KIFtest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance tests/Acceptance tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acceptance tests/Acceptance tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A0BE1FE01803FE92001FBB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850D0F5F844E496382C00551 /* Pods-Acceptance tests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFtest.app/KIFtest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance tests/Acceptance tests-Prefix.pch";
+				INFOPLIST_FILE = "Acceptance tests/Acceptance tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09C01671803FABA00575805 /* Build configuration list for PBXProject "KIFtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09C019F1803FABA00575805 /* Debug */,
+				A09C01A01803FABA00575805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09C01A11803FABA00575805 /* Build configuration list for PBXNativeTarget "KIFtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09C01A21803FABA00575805 /* Debug */,
+				A09C01A31803FABA00575805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BE1FDE1803FE92001FBB44 /* Build configuration list for PBXNativeTarget "Acceptance tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BE1FDF1803FE92001FBB44 /* Debug */,
+				A0BE1FE01803FE92001FBB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A09C01641803FABA00575805 /* Project object */;
+}
