@@ -13,7 +13,7 @@
 - (void)testSuccessfulLogin
 {
     [tester tapViewWithAccessibilityLabel:@"Touch me!"];
-    [tester waitForViewWithAccessibilityLabel:@"Welcoma"];
+    [tester waitForViewWithAccessibilityLabel:@"Welcome"];
 }
 
 @end

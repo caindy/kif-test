@@ -7,4 +7,4 @@ notifications:
   
 before_install: gem install cocoapods
 
-script: xctool ONLY_ACTIVE_ARCH=YES -workspace KIFtest.xcworkspace -scheme KIFtest build test clean -sdk iphonesimulator
+script: xctool ONLY_ACTIVE_ARCH=NO -workspace KIFtest.xcworkspace -scheme KIFtest build test clean -sdk iphonesimulator
