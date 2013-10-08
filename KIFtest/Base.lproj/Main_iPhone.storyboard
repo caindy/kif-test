@@ -50,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLd-i5-cqB">
-                                <rect key="frame" x="139" y="273" width="71" height="21"/>
+                                <rect key="frame" x="125" y="241" width="71" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -58,8 +58,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZLd-i5-cqB" firstAttribute="top" secondItem="3l2-mX-lKN" secondAttribute="top" constant="273" id="Xcl-H1-BMX"/>
-                            <constraint firstItem="ZLd-i5-cqB" firstAttribute="leading" secondItem="3l2-mX-lKN" secondAttribute="leading" constant="139" id="gX3-23-jBk"/>
+                            <constraint firstItem="ZLd-i5-cqB" firstAttribute="top" secondItem="3l2-mX-lKN" secondAttribute="top" constant="241" id="8tX-EQ-fu4"/>
+                            <constraint firstItem="ZLd-i5-cqB" firstAttribute="centerX" secondItem="3l2-mX-lKN" secondAttribute="centerX" type="default" id="I8o-FH-bd0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5cZ-kr-6WJ"/>
